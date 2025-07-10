@@ -105,22 +105,28 @@ A web-based drum machine with a dynamic grid interface. Users can create drum lo
 
 *(All work will be done on the `develop` branch)*
 
--   [ ] **Phase 7: Color Scheme Alignment**
+-   [ ] **Phase 7: Light/Dark Mode Integration**
+    -   [ ] Define light mode styles in `style.css` (background, text, accents, controls).
+    -   [ ] Implement JavaScript toggle for `light-mode` class on `<body>`.
+    -   [ ] Add a toggle button to `index.html`.
+    -   [ ] Save user preference to `localStorage`.
+
+-   [ ] **Phase 8: Color Scheme Alignment**
     -   [ ] Update `style.css` on the `develop` branch to match the color palette of `wkweric.framer.website`.
     -   [ ] Systematically map background, container, accent, and text colors.
     -   [ ] Verify changes locally via the running Node.js server before committing.
 
--   [ ] **Phase 8: Advanced Features & Polish (Tier 1)**
+-   [ ] **Phase 9: Advanced Features & Polish (Tier 1)**
     -   [ ] Implement multiple drum kits (e.g., 808, Acoustic, LinnDrum).
     -   [ ] Add Solo/Mute buttons for each sound row.
     -   [ ] Implement Save/Load pattern functionality (using local storage).
 
--   [ ] **Phase 9: Advanced Features & Polish (Tier 2)**
+-   [ ] **Phase 10: Advanced Features & Polish (Tier 2)**
     -   [ ] Add pitch control for each sound.
     -   [ ] Implement velocity control for individual steps.
     -   [ ] Add a swing/shuffle control.
 
--   [ ] **Phase 10: Advanced Features & Polish (Tier 3)**
+-   [ ] **Phase 11: Advanced Features & Polish (Tier 3)**
     -   [ ] Implement real-time keyboard drumming.
     -   [ ] Add audio effects (e.g., reverb, delay).
     -   [ ] Implement a pattern chaining system. 
