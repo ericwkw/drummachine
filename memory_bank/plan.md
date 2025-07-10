@@ -89,24 +89,38 @@ A web-based drum machine with a dynamic grid interface. Users can create drum lo
 -   [x] **Phase 6: Version Control & Hosting**
     -   [x] Initialize a Git repository.
     -   [x] Create a `.gitignore` file to exclude unnecessary files (like `.DS_Store`).
-    -   [ ] Create a new public repository on GitHub.
-    -   [ ] Push the initial project files to the GitHub repository.
-    -   [ ] Enable GitHub Pages in the repository settings to deploy the `main` branch.
-    -   [ ] Provide the public URL for testing and verification.
+    -   [x] Create a new public repository on GitHub.
+    -   [x] Push the initial project files to the GitHub repository.
+    -   [x] Enable GitHub Pages in the repository settings to deploy the `main` branch.
+    -   [x] Provide the public URL for testing and verification.
+
+**Public URL:** [https://ericwkw.github.io/drummachine/](https://ericwkw.github.io/drummachine/)
+
+## Branching Strategy
+
+-   All new development will be done on the `develop` branch.
+-   The `master` branch will only be updated when a new feature is complete and tested, by merging the `develop` branch into `master`.
 
 ## Future Enhancements
 
--   [ ] **Phase 7: Advanced Features & Polish (Tier 1)**
+*(All work will be done on the `develop` branch)*
+
+-   [ ] **Phase 7: Color Scheme Alignment**
+    -   [ ] Update `style.css` on the `develop` branch to match the color palette of `wkweric.framer.website`.
+    -   [ ] Systematically map background, container, accent, and text colors.
+    -   [ ] Verify changes locally via the running Node.js server before committing.
+
+-   [ ] **Phase 8: Advanced Features & Polish (Tier 1)**
     -   [ ] Implement multiple drum kits (e.g., 808, Acoustic, LinnDrum).
     -   [ ] Add Solo/Mute buttons for each sound row.
     -   [ ] Implement Save/Load pattern functionality (using local storage).
 
--   [ ] **Phase 8: Advanced Features & Polish (Tier 2)**
+-   [ ] **Phase 9: Advanced Features & Polish (Tier 2)**
     -   [ ] Add pitch control for each sound.
     -   [ ] Implement velocity control for individual steps.
     -   [ ] Add a swing/shuffle control.
 
--   [ ] **Phase 9: Advanced Features & Polish (Tier 3)**
+-   [ ] **Phase 10: Advanced Features & Polish (Tier 3)**
     -   [ ] Implement real-time keyboard drumming.
     -   [ ] Add audio effects (e.g., reverb, delay).
     -   [ ] Implement a pattern chaining system. 
